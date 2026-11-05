@@ -117,6 +117,7 @@ modules:
           type: json
           url: https://api.github.com/repos/cyberbotics/webots/releases/latest
           version-query: .tag_name
+          tag-query: .tag_name
           timestamp-query: .published_at
       - type: patch
         path: patches/generate_projects_files.patch
